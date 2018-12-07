@@ -11,6 +11,14 @@
 [/slide]
 
 [slide]
+# Test Elements
+[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor ...] [/code-editor]
+[task-description] [/task-description]
+[/code-task]
+[/slide]
+
+[slide]
 # Centuries – Example
 Depending on the unit of measure we can use different data types:
 ```
