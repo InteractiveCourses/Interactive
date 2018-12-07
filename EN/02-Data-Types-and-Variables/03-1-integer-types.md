@@ -16,7 +16,14 @@
 [code-editor ...] [/code-editor]
 [task-description] [/task-description]
 [/code-task]
+
+[task-description]
+Read a number from the console and calculate its square
+[/task-description]
+
+
 [/slide]
+
 
 [slide]
 # Centuries – Example
