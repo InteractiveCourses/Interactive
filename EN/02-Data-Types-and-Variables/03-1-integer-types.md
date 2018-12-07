@@ -21,6 +21,8 @@
 Read a number from the console and calculate its square
 [/task-description]
 
+[code-io]rfs[/code-io]
+
 
 [/slide]
 
