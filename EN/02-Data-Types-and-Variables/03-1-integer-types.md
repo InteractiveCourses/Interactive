@@ -17,12 +17,51 @@
 [task-description] [/task-description]
 [/code-task]
 
+[code-task title="Calculating the area of a square" executionStrategy="csharp-code"]
+[code-editor ...] [/code-editor]
+[task-description] [/task-description]
+[code-io /]
+[/code-task]
+
+[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor ...] [/code-editor]
+[task-description] [/task-description]
+[code-io /]
+[/code-task]
+
 [task-description]
 Read a number from the console and calculate its square
 [/task-description]
 
 [code-io]rfs[/code-io]
 
+## Code Editor
+[code-editor language=csharp]
+[/code-editor]
+
+[code-editor language=csharp]
+using System;
+public class App
+{
+    public static void Main()
+    {
+        // Write your code here
+    }
+}
+[/code-editor]
+
+
+[code-editor language=csharp]
+using System;
+public class App
+{
+    public static void Main()
+    {
+        var a = int.Parse(Console.ReadLine());
+        var square = ; // calculate the square of `a`
+    }
+}
+[/code-editor]
 
 [/slide]
 
