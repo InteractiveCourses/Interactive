@@ -15,6 +15,6 @@ In this chapter we will examine primitive types and variables in C# – what the
 - Characters and Strings
 3. Variables
 
-##Let’s Begin!
+## Let’s Begin!
 
 [/slide]
