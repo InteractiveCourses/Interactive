@@ -1,1 +1,1 @@
-BG Course name
+# BG Course name
