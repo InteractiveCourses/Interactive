@@ -2,7 +2,7 @@
 # Beware of Integer Overflow!
 - Integers have range (minimal and maximal value)
 - Integers could overflow -> this leads to incorrect values
-```
+```csharp
 byte counter = 0;
 for (int i = 0; i < 260; i++)
 {
@@ -12,7 +12,7 @@ for (int i = 0; i < 260; i++)
 
 ```
 
-```
+```csharp
 1
 2
 …
@@ -28,7 +28,7 @@ for (int i = 0; i < 260; i++)
 ```
 Centures = 1
 1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes
-```
+```csharp
 
 ```
 Centures = 5
@@ -40,7 +40,7 @@ Check your solution here:
 
 [slide]
 # Solution: Centuries to Minutes
-```
+```csharp
 Console.Write("Centuries = ");
 int centuries = int.Parse(Console.ReadLine());
 int years = centuries * 100;
