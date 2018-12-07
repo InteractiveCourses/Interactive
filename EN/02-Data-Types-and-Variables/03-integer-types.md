@@ -36,8 +36,6 @@ Read a number from the console and calculate its square
 [code-io]rfs[/code-io]
 [/slide]
 
-
-
 [slide]
 # Centuries – Example
 Depending on the unit of measure we can use different data types:
@@ -55,4 +53,3 @@ Console.WriteLine(  "{0} centuries = {1} years = {2} days = {3} hours.",  cent
 
 ```
 [/slide]
-
