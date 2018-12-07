@@ -9,12 +9,12 @@ In this chapter we will examine primitive types and variables in C# – what the
 
 1. What is a Data Type?
 2. Classical Data Types
-2. Classical Data Types
+3. Classical Data Types
     - Integer Types
     - Floating-Point Types
     - Type Conversion
     - Characters and Strings
-3. Variables
+4. Variables
 
 ## Let’s Begin!
 
