@@ -1,5 +1,6 @@
 [slide]
-#Integer Literals
+# Integer Literals
+
 Integer literals are sequences of digits, a sign (+, -), suffixes and prefixes. Using prefixes we can present integers in the program source in decimal or hexadecimal format. More information about the different numeral systems we can find in the chapter "Numeral Systems"
 - Examples of integer literals:
     - The '0x' and '0X' prefixes mean a hexadecimal value
