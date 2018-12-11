@@ -1,1 +1,0 @@
-# BG Course name
