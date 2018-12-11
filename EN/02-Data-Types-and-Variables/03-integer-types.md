@@ -11,27 +11,6 @@
 [/slide]
 
 [slide]
-# Test Elements
-# Centuries – Example
-
-Create C# console application that prints on the screen for centuries, years and days.
-
-[code-task title="Centuries – Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
-
-[code-editor language=csharp]
-[/code-editor]
-
-[task-description]
-Print on the screen how many years, days and hours of equal 20 centuries.
-[/task-description]
-
-[code-io /]
-[/code-task]
-[/slide]
-
-
-
-[slide]
 # Centuries – Example
 Depending on the unit of measure we can use different data types:
 ```csharp
@@ -47,4 +26,23 @@ ulong hours = 17531616; // A very big number (up to 18.4*10^18)
 Console.WriteLine(  "{0} centuries = {1} years = {2} days = {3} hours.",  centuries, years, days, hours);
 
 ```
+[/slide]
+
+[slide]
+# Test Your Code Here
+# Centuries – Example
+
+Create C# console application that prints on the screen for centuries, years and days.
+
+[code-task title="Centuries – Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Print on the screen how many years, days and hours of equal 20 centuries.
+[/task-description]
+
+[code-io /]
+[/code-task]
 [/slide]
