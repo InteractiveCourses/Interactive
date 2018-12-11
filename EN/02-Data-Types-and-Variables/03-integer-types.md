@@ -23,20 +23,32 @@ byte centuries = 20;    // A small number (up to 255)
 ushort years = 2000;    // A small number (up to 32767)
 uint days = 730484;     // A large number (up to 4.3 billions)
 ulong hours = 17531616; // A very big number (up to 18.4*10^18)
-Console.WriteLine(  "{0} centuries = {1} years = {2} days = {3} hours.",  centuries, years, days, hours);
+Console.WriteLine("{0} centuries = {1} years = {2} days = {3} hours.", centuries, years, days, hours);
 
 ```
 [/slide]
 
 [slide]
 # Test Your Code Here
-# Centuries – Example
+# Centuries - Example
 
 Create C# console application that prints on the screen for centuries, years and days.
 
-[code-task title="Centuries – Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Centuries - Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
+using System;
+namespace Centuries
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+		    // enter your code here
+		    Console.WriteLine("{0} centuries = {1} years = {2} days = {3} hours.", centuries, years, days, hours);
+		}
+	}
+}
 [/code-editor]
 
 [task-description]
