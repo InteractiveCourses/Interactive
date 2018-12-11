@@ -1,8 +1,8 @@
 [slide]
-#Beware of Integer Overflow!
+# Beware of Integer Overflow!
 - Integers have range (minimal and maximal value)
 - Integers could overflow -> this leads to incorrect values
-```
+```csharp
 byte counter = 0;
 for (int i = 0; i < 260; i++)
 {
@@ -12,7 +12,7 @@ for (int i = 0; i < 260; i++)
 
 ```
 
-```
+```csharp
 1
 2
 …
@@ -23,14 +23,14 @@ for (int i = 0; i < 260; i++)
 [/slide]
 
 [slide]
-#Problem: Centuries to Minutes
+# Problem: Centuries to Minutes
 - Write program to enter an integer number of centuries and convert it to years, days, hours and minutes
-```
+```csharp
 Centures = 1
 1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes
 ```
 
-```
+```csharp
 Centures = 5
 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240 minutes
 ```
@@ -42,8 +42,8 @@ Check your solution here:
 [/slide]
 
 [slide]
-#Solution: Centuries to Minutes
-```
+# Solution: Centuries to Minutes
+```csharp
 Console.Write("Centuries = ");
 int centuries = int.Parse(Console.ReadLine());
 int years = centuries * 100;
