@@ -25,7 +25,7 @@ Console.WriteLine(Math.Floor(a));    // result: 2
 ```
 
 - Sample solution:
-```
+```csharp
 double r = double.Parse(Console.ReadLine());
 Console.WriteLine("{0:f12}", Math.PI * r * r);
 
