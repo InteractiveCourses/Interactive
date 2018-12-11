@@ -13,28 +13,7 @@
 
 [slide]
 # Test Elements
-[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor ...] [/code-editor]
-[task-description] [/task-description]
-[/code-task]
 
-[code-task title="Calculating the area of a square" executionStrategy="csharp-code"]
-[code-editor ...] [/code-editor]
-[task-description] [/task-description]
-[code-io /]
-[/code-task]
-
-[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor ...] [/code-editor]
-[task-description] [/task-description]
-[code-io /]
-[/code-task]
-
-[task-description]
-Read a number from the console and calculate its square
-[/task-description]
-
-[code-io]rfs[/code-io]
 [/slide]
 
 
