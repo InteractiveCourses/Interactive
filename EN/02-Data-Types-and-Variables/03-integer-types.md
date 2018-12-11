@@ -1,4 +1,3 @@
-<<<<<<< HEAD:EN/02-Data-Types-and-Variables/03-integer-types.md
 [slide]
 # Integer Types
 - sbyte [-128 …127]: signed 8-bit [-27 … 27-1]
