@@ -25,8 +25,7 @@
 
 ```
 Check your solution here: 
-[code-editor language=csharp]
-[/code-editor]
+
 [/slide]
 
 [slide]
