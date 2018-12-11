@@ -12,7 +12,21 @@
 
 [slide]
 # Test Elements
+# Centuries – Example
 
+Create C# console application that prints on the screen for centuries, years and days.
+
+[code-task title="Centuries – Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Print on the screen how many years, days and hours of equal 20 centuries.
+[/task-description]
+
+[code-io /]
+[/code-task]
 [/slide]
 
 
