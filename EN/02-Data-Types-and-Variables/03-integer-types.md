@@ -38,17 +38,13 @@ Create C# console application that prints on the screen for centuries, years and
 
 [code-editor language=csharp]
 using System;
-
 namespace Centuries
 {
     class Program
     {
         static void Main(string[] args)
         {
-		    // enter your code below
-			
-			
-			// enter your code above
+		    // enter your code here
 		    Console.WriteLine("{0} centuries = {1} years = {2} days = {3} hours.", centuries, years, days, hours);
 		}
 	}
