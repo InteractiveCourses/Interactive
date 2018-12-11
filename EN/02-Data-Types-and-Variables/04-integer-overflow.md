@@ -35,8 +35,7 @@ Centures = 5
 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240 minutes
 ```
 Check your solution here: 
-[code-editor language=csharp]
-[/code-editor]
+
 
 
 [/slide]
@@ -54,6 +53,5 @@ Console.WriteLine("{0} centuries = {1} years = {2} days = {3} hours = {4} minute
 
 ```
 Check your solution here: 
-[code-editor language=csharp]
-[/code-editor]
+
 [/slide]
