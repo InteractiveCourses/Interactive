@@ -40,5 +40,6 @@ to the console.
 
 Follow the idea in the code below:
 
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/EN/assets/programming-fundamentals-data-types-and-variables-exercises-01.png alt="programming-fundamentals-data-types-and-variables-exercises-01.png" /]
 
 [/slide]
