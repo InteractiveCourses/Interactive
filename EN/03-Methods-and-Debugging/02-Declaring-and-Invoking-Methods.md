@@ -4,7 +4,7 @@
 **Methods** are **named pieces of code** that can be invoked later
 
 Sample method **definition**:
-```csharp
+```text
 static void PrintHeader()
 {
   Console.WriteLine("----------");
