@@ -1,8 +1,7 @@
 [slide]
 # Splitting Strings
-
+One of the most flexible methods for working with strings is **Split(…)**. It allows us to split a string by a separator or an array of possible separators.
 - To split a string by given separator(s) use the following method:
-
 
 ```csharp
 string[] Split(params char[] separator)
