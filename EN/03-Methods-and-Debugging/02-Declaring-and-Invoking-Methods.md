@@ -1,15 +1,17 @@
 [slide]
 # Declaring and Invoking Methods
 
-- **Methods** are **named pieces of code** that can be invoked later
-- Sample method **definition**:
+**Methods** are **named pieces of code** that can be invoked later
+
+Sample method **definition**:
 ```csharp
 static void PrintHeader()
 {
   Console.WriteLine("----------");
 }
 ```
-- **Invoking** (calling) the method several times:
+
+**Invoking** (calling) the method several times:
 ```csharp
 PrintHeader();
 PrintHeader();
@@ -51,9 +53,9 @@ static double GetSquare(double num)
 }
 ```
 
-- Methods are defined **inside a class**
-- `Main()` is also a method:
+Methods are defined **inside a class**
 
+`Main()` is also a method:
 ```csharp
 class Program
 {
@@ -64,13 +66,13 @@ class Program
 }
 ```
 
-- Variables inside a method are **local**
+Variables inside a method are **local**
 [/slide]
 
 [slide]
 # Invoking a Method
 
-- Methods are first **defined**, then **invoked** (many times); here's a method definition:
+Methods are first **defined**, then **invoked** (many times); here's a method definition:
 
 ```csharp
 static void PrintHeader()
@@ -79,7 +81,7 @@ static void PrintHeader()
 }
 ```
 
-- Methods can be invoked (called) by their name + `()`:
+Methods can be invoked (called) by their name + `()`:
 
 ```csharp
 static void Main()
@@ -94,7 +96,7 @@ static void Main()
 
 A method can be invoked from:
 
-- The main method - `Main()`:
+The main method - `Main()`:
 
 ```csharp
 static void Main()
@@ -103,7 +105,7 @@ static void Main()
 }
 ```
 
-- Some other method:
+Some other method:
 
 ```csharp
 static void PrintHeader()
@@ -113,7 +115,7 @@ static void PrintHeader()
 }
 ```
 
-- Its own body (recursion)
+Its own body (recursion)
 
 ```csharp
 static void Crash()
