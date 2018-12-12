@@ -40,6 +40,10 @@ to the console.
 
 Follow the idea in the code below:
 
-[image src=https://github.com/InteractiveCourses/Interactive/blob/master/EN/assets/programming-fundamentals-data-types-and-variables-exercises-01.png alt="exercises01png" /]
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-01.png alt="exercises01png" /]
+
+Practice Floating Point Numbers
+-------------------------------
+
 
 [/slide]
