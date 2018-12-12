@@ -1,20 +1,15 @@
-# Declaring and Invoking Methods
-
 [slide]
-# Simple Methods
+# Declaring and Invoking Methods
 
 - **Methods** are **named pieces of code** that can be invoked later
 - Sample method **definition**:
-
 ```csharp
 static void PrintHeader()
 {
   Console.WriteLine("----------");
 }
 ```
-
 - **Invoking** (calling) the method several times:
-
 ```csharp
 PrintHeader();
 PrintHeader();
@@ -40,7 +35,7 @@ PrintHeader();
 
 Method definitions follow this general structure:
 
-```
+```csharp
 [modifiers] [return type] [Name]([parameters])
 {
   [method body]
