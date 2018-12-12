@@ -1,1 +1,1 @@
-# Lesson 03 Methods, Debugging and Troubleshooting Code
+# Lesson 03 Methods and Debugging
