@@ -1,8 +1,7 @@
 [slide]
-# List – Data Structure
-When we create an object of type, we indicate the **type** of the elements, which will be hold in 
+# List – Test
+When we create an object of type List<T>, we indicate the **type** of the elements, which will be hold in 
 
 
 Let’s Begin!
 [/slide]
-
