@@ -1,7 +1,7 @@
 [slide]
-# List<T> – Data Structure
-When we create an object of type List<T>, we indicate the **type** of the elements, which will be hold in the list, i.e. we **substitute** the denoted by T type with some real data type (for example number or string).
-- List<T> holds a list of elements
+# List\<T\> – Data Structure
+When we create an object of type List\<T\>, we indicate the **type** of the elements, which will be hold in the list, i.e. we **substitute** the denoted by T type with some real data type (for example number or string).
+- List\<T\> holds a list of elements
     - Holds elements like an array, but can have a variable length
 - Has several methods for manipulation
     - **Count** – the number of elements in the List<T>
