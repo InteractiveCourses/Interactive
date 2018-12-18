@@ -1,7 +1,7 @@
 [slide]
 # Working with Arrays of Elements
 ## What are Arrays?
-Arrays are vital for most programming languages. They are **collections** of **variables**, which we call elements:
+Arrays are vital for most **programming languages**. They are **collections** of **variables**, which we call elements:
 - In programming, **array** is a **sequence of elements**
     - Elements are **numbered** from **0** to **Length-1**
     - Elements are of the **same type** (e.g. integers)
