@@ -4,6 +4,7 @@
 
 
 TODO: picture
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/fileinfo.png alt="fileinfo" /]
 
 
 [/slide]
