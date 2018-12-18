@@ -7,6 +7,9 @@ Arrays are vital for most programming languages. They are **collections** of **v
     - Elements are of the **same type** (e.g. integers)
     - Arrays have **fixed size** (**Array.Length**) – cannot be resized
 
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/whatIsArray.png alt="Array" /]
+
+
 [/slide]
 
 [slide]
