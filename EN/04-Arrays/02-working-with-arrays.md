@@ -56,9 +56,12 @@ string[] days = {
 [slide]
 # Problem: Day of Week
 
-- Enter a day number [1…7] and print the day name (in English) or "**Invalid day!**"
+- Enter a **day number** [1…7] and print the **day name** (in English) or "**Invalid day!**"
 
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/ProblemDayOfWeek.png alt="ProblemDayOfWeek" /]
 
+Check your solution here:
+[anchor href=https://judge.softuni.bg/Contests/Practice/Index/172#0]https://judge.softuni.bg/Contests/Practice/Index/172#0[/anchor]
 
 # Try it yourself!
 
