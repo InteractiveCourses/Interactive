@@ -21,6 +21,8 @@
 
 [slide]
 # Value vs Reference Types
+
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/arraysValueVSReferenceTypes.png alt="Value VS Reference Types" /]
 ## Example: Value Types 
 
 ```csharp
