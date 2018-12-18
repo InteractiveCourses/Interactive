@@ -5,7 +5,7 @@ When we create an object of type List\<T\>, we indicate the **type** of the elem
     - Holds elements like an array, but can have a variable length
 - Has several methods for manipulation
     - **Count** – the number of elements in the List<T>
-    - **Add()** – adds an element to the List<T>
+    - **Add()** – adds an element to the List\<T\>
     - **Remove()** – returns **true** if it finds the element and removes it
     - **RemoveAt(int index)** – removes element at **index**
     - **Insert()** – inserts an element to given position 
