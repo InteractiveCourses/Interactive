@@ -1,2 +1,2 @@
-# Lesson 08 Files, Directories and Exceptions
+# Lesson 08 Files and Exceptions
 
