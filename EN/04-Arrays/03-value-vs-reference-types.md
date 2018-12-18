@@ -1,5 +1,7 @@
 [slide]
 # Value vs Reference Types
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/arraysValueVSReferenceTypes.png alt="Value VS Reference Types" /]
+
 ## Value types
 - List of Value Types - 
 [anchor href=https://msdn.microsoft.com/en-us/library/bfft1t3c.aspx]https://msdn.microsoft.com/en-us/library/bfft1t3c.aspx[/anchor]
@@ -20,10 +22,7 @@
 
 
 [slide]
-# Value vs Reference Types
-
-[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/arraysValueVSReferenceTypes.png alt="Value VS Reference Types" /]
-## Example: Value Types 
+# Example: Value Types 
 
 ```csharp
 public static void Main(string[] args)
