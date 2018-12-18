@@ -3,7 +3,6 @@
 - The **FileInfo** class provides you with properties that give you more information about a file.
 
 
-TODO: picture
 [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/fileinfo.png alt="fileinfo" /]
 
 
