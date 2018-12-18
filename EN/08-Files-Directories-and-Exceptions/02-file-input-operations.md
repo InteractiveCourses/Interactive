@@ -1,6 +1,7 @@
 [slide]
 # File – Input Operations
 ## Input Operations
+**File Class** in **System.IO** namespace provides static methods for the **creation**, **copying**, **deletion**, **moving**, and **opening** of a single **file**, and aids in the creation of **FileStream objects**.
 - **ReadAllText()** – reads everything at once and returns a string
 
 ```csharp
