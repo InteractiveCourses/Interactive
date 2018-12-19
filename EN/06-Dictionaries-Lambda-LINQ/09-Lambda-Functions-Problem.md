@@ -3,7 +3,7 @@
 
 Read a **text**, extract its **words**, find all **short words** (less than 5 characters) and print them **alphabetically**, in **lower case**.
 
-- Use the following separators: . , : ; ( ) [ ] " ' / \ ! ? (space)
+- Use the following separators: `. , : ; ( ) [ ] " ' / \ ! ? (space)`
 - Use case-insensitive matching; remove duplicated words
 
 Input: In SoftUni you can study Java, C#, PHP and JavaScript. JAVA and c# developers graduate in 2-3 years. Go in!
