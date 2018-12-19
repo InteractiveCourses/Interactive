@@ -25,9 +25,11 @@ published in your GitHub profile in Internet. Follow these steps:
    ``   1.``  **Clone** again the same repository on a different place (this time use **GitBash** - git clone):
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-23.png alt="version-control-systems-exercises-23.png" /]
    ``   2.``  Return to the previous clone and it in **Windows Explorer**.
+   
    ``   3.``  Make some **changes**:
    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-25.png alt="version-control-systems-exercises-25.png" /]
    ``   4.``  **Commit** your local changes to your local repository.
+   
    ``   5.``  **Push** your changes to the remote repository in GitHub:
    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-26.png alt="version-control-systems-exercises-26.png" /]
    ``   6.``  Check whether your changes are online:
@@ -49,8 +51,7 @@ Create **conflicting changes** and **merge them**. Use the following steps:
 
 ``5.``  Try to **push** the local changes to the **remote repository**:
 
-``6.``  You will not be allowed since the remote repository is **updated**
-    and the local one is **not**.
+``6.``  You will not be allowed since the remote repository is **updated** and the local one is **not**.
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
 
 ``7.``  After the pull **TortoiseGit** will **try** to pull and merge but it will **fail**, so we have to merge **manually**.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-03.png alt="version-control-systems-exercises-03.png" /]
