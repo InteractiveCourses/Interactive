@@ -40,4 +40,15 @@ published in your GitHub profile in Internet. Follow these steps:
    6.  Check whether your changes are online:
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-06.png alt="version-control-systems-exercises-06.png" /]
 
+### Make Conflicts and Resolve Them
+-------------------------------
+
+Create **conflicting changes** and **merge them**. Use the following
+steps:
+
+1.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-07.png alt="version-control-systems-exercises-07.png" /]Make some **changes** in your working
+    directory, e.g. edit the file **README.md**.
+
+2.  **Don't commit** and **don't push** your changes yet.
+
 [/slide]
