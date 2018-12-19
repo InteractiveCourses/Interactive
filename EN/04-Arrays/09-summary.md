@@ -16,4 +16,5 @@ numbers[5] = 10;
 ```csharp
 Console.Write(string.Join(" ", arr));
 ```
+
 [/slide]
