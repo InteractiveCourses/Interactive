@@ -11,7 +11,7 @@ Create a few **repositories** in your **GitHub** profile and **upload a few of y
 
 1.  First **create a remote repository** for your current project. [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-12.png alt="version-control-systems-exercises-12.png" /]
 
-2. Clone it on your device: [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
+2. Clone it on your device: [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-01.png alt="version-control-systems-exercises-01.png" /]
         
 Note that all (not paid) projects you upload at GitHub will be
 **open-source** and will be accessible for **anyone** in Internet, so be
