@@ -21,7 +21,7 @@ community. Follow these steps:
 2.  Image Test
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-01.png alt="version-control-systems-exercises-01.png" /]
 
-    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-version-control-systems-exercises (1)-02.png alt="image2" /]
+    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
     
     test
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/fileinfo.png alt="fileinfo" /]
