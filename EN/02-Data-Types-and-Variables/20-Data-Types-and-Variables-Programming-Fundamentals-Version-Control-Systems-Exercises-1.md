@@ -22,17 +22,17 @@ careful about passwords or code which you might **not** want to be
 locally, then **update** them to GitHub. Check whether the changes are
 published in your GitHub profile in Internet. Follow these steps:
 
-   ``   1.``  **Clone** again the same repository on a different place (this time use **GitBash** - git clone):
+   ``   2.1.``  **Clone** again the same repository on a different place (this time use **GitBash** - git clone):
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-23.png alt="version-control-systems-exercises-23.png" /]
-   ``   2.``  Return to the previous clone and it in **Windows Explorer**.
+   ``   2.2.``  Return to the previous clone and it in **Windows Explorer**.
    
-   ``   3.``  Make some **changes**:
+   ``   2.3.``  Make some **changes**:
    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-25.png alt="version-control-systems-exercises-25.png" /]
-   ``   4.``  **Commit** your local changes to your local repository.
+   ``   2.4.``  **Commit** your local changes to your local repository.
    
-   ``   5.``  **Push** your changes to the remote repository in GitHub:
+   ``   2.5.``  **Push** your changes to the remote repository in GitHub:
    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-26.png alt="version-control-systems-exercises-26.png" /]
-   ``   6.``  Check whether your changes are online:
+   ``   2.6.``  Check whether your changes are online:
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-27.png alt="version-control-systems-exercises-27.png" /]
 
 ### 2. Make Conflicts and Resolve Them
