@@ -9,9 +9,13 @@ Problems for exercises and homework for the "Programming Fundamentals" course @ 
 
 Create a few **repositories** in your **GitHub** profile and **upload a few of your projects to GitHub**. These could be your **homework exercises** for the last few courses, your **teamwork projects** or any other projects that you might want to share with the developer community. Follow these steps:
 
-1.  First **create a remote repository** for your current project. [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-01.png alt="version-control-systems-exercises-01.png" /]
+1.  First **create a remote repository** for your current project.
 
-2. Clone it on your device: [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-01.png alt="version-control-systems-exercises-01.png" /]
+
+2. Clone it on your device:
+
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
         
 Note that all (not paid) projects you upload at GitHub will be
 **open-source** and will be accessible for **anyone** in Internet, so be
