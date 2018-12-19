@@ -19,7 +19,7 @@ community. Follow these steps:
 1.  First **create a remote repository** for your current project.
 
 2.  Image Test
-    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-version-control-systems-exercises (1)-01.png alt="image1" /]
+    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-01.png alt="version-control-systems-exercises-01.png" /]
 
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-version-control-systems-exercises (1)-02.png alt="image2" /]
     
