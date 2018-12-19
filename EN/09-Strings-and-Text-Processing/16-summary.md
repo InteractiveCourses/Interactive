@@ -5,6 +5,14 @@
     - Changes to the string create a new object, instead of modifying the old one
 - **StringBuilder** offers good performancewhen concatenating a lot of strings
 
+
+
+
+
+
+
+
+
 [/slide]
 
 
