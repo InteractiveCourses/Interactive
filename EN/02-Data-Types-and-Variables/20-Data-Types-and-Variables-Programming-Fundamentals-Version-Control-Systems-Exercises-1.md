@@ -23,6 +23,9 @@ community. Follow these steps:
 
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-version-control-systems-exercises (1)-02.png alt="image2" /]
     
+    test
+    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/fileinfo.png alt="fileinfo" /]
+    test
     
 Note that all (not paid) projects you upload at GitHub will be
 **open-source** and will be accessible for **anyone** in Internet, so be
