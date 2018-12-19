@@ -41,7 +41,6 @@ published in your GitHub profile in Internet. Follow these steps:
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-27.png alt="version-control-systems-exercises-27.png" /]
 
 ### Make Conflicts and Resolve Them
--------------------------------
 
 Create **conflicting changes** and **merge them**. Use the following
 steps:
