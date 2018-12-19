@@ -5,7 +5,7 @@ Problems for exercises and homework for the "Programming Fundamentals" course @ 
 
 ## TortoiseGit
 
-### Upload a Few Projects at GitHub
+### 1. Upload a Few Projects at GitHub
 
 Create a few **repositories** in your **GitHub** profile and **upload a few of your projects to GitHub**. These could be your **homework exercises** for the last few courses, your **teamwork projects** or any other projects that you might want to share with the developer community. Follow these steps:
 
@@ -40,22 +40,19 @@ published in your GitHub profile in Internet. Follow these steps:
    6.  Check whether your changes are online:
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-27.png alt="version-control-systems-exercises-27.png" /]
 
-### Make Conflicts and Resolve Them
+### 2. Make Conflicts and Resolve Them
 
-Create **conflicting changes** and **merge them**. Use the following
-steps:
+Create **conflicting changes** and **merge them**. Use the following steps:
 
-1.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-28.png alt="version-control-systems-exercises-28.png" /]Make some **changes** in your working
-    directory, e.g. edit the file **README.md**.
+1.  Make some **changes** in your working directory, e.g. edit the file **README.md**. [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-28.png alt="version-control-systems-exercises-28.png" /]
 
 2.  **Don't commit** and **don't push** your changes yet.
 
-3.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-29.png alt="version-control-systems-exercises-29.png" /]Open your GitHub account from your **Web browser**
-    or your **GitBash clone**. Make some changes to the same file,
-    commit and push them:
+3.  Open your GitHub account from your **Web browser** or your **GitBash clone**. Make some changes to the same file,
+    commit and push them: [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-29.png alt="version-control-systems-exercises-29.png" /]
 
-4.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-30.png alt="version-control-systems-exercises-30.png" /]Now **commit** the local changes in **TortoiseGit**
-    clone.
+4.  Now **commit** the local changes in **TortoiseGit** clone.
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-30.png alt="version-control-systems-exercises-30.png" /]
 
 5.  Try to **push** the local changes to the **remote repository**:
 
@@ -63,80 +60,53 @@ steps:
     and the local one is **not**.
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-02.png alt="version-control-systems-exercises-02.png" /]
 
-7.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-03.png alt="version-control-systems-exercises-03.png" /]After the pull **TortoiseGit** will
-    **try** to pull and merge but it will **fail**, so we have to merge
-    **manually**.
+7.  After the pull **TortoiseGit** will **try** to pull and merge but it will **fail**, so we have to merge **manually**.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-03.png alt="version-control-systems-exercises-03.png" /]
 
-8.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-04.png alt="version-control-systems-exercises-04.png" /]Now **resolve the conflict**. Edit the
-    conflicting files and get then correctly merged. Remove all lines
-    that point the locations of the merge conflicts (like
-    **\<\<\<\<\<\<\< HEAD**):
+8.  Now **resolve the conflict**. Edit the conflicting files and get then correctly merged. Remove all lines that point the locations of the merge conflicts (like **\<\<\<\<\<\<\< HEAD**):[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-04.png alt="version-control-systems-exercises-04.png" /]
 
 9.  Resolve current file with **TortoiseGit** -\> **Resolve**
-
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-05.png alt="version-control-systems-exercises-05.png" /]
 
-10. [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-06.png alt="version-control-systems-exercises-06.png" /]
+10. Now **commit the merged changes** (your local changes and your changed made from the Web):[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-06.png alt="version-control-systems-exercises-06.png" /]
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-07.png alt="version-control-systems-exercises-07.png" /]
-    
-    Now **commit the merged changes** (your
-    local changes and your changed made from the Web):
-
-11. Now **push again** to push your changes online to GitHub.
-
-[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-08.png alt="version-control-systems-exercises-08.png" /]Great, the **push should be successful**
+       
+11. Now **push again** to push your changes online to GitHub.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-08.png alt="version-control-systems-exercises-08.png" /]Great, the **push should be successful**
 with **no conflicts**!
 
-12. Finally, **check the changes** on the Web in your GitHub account:
+12. Finally, **check the changes** on the Web in your GitHub account:[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-09.png alt="version-control-systems-exercises-09.png" /]
 
-[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-09.png alt="version-control-systems-exercises-09.png" /]
+### 3. Create a branch and merge changes to the both local and remote repository
 
-### Create a branch and merge changes to the both local and remote repository
--------------------------------------------------------------------------
+1.  Create **branch**. (Here the branch name is: **develop**)[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-11.png alt="version-control-systems-exercises-11.png" /]
+   [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-10.png alt="version-control-systems-exercises-10.png" /]
 
-1.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-11.png alt="version-control-systems-exercises-11.png" /]
-   [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-10.png alt="version-control-systems-exercises-10.png" /]Create **branch**. (Here the branch
-    name is: **develop**)
-
-2.  **Switch** to that branch.
-
-    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-15.png alt="version-control-systems-exercises-15.png" /]
+2.  **Switch** to that branch.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-15.png alt="version-control-systems-exercises-15.png" /]
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-14.png alt="version-control-systems-exercises-14.png" /]
     [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-13.png alt="version-control-systems-exercises-13.png" /]
 
 3.  Make some **changes**. **Edit** one of the files in your repository.
+4.  **Commit** them.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-16.png alt="version-control-systems-exercises-16.png" /]
 
-4.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-16.png alt="version-control-systems-exercises-16.png" /]**Commit** them.
+5.  **Switch** to the main branch.[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-15.png alt="version-control-systems-exercises-15.png" /]
 
-5.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-15.png alt="version-control-systems-exercises-15.png" /]**Switch** to the main branch.
-
-6.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-17.png alt="version-control-systems-exercises-17.png" /]Make some changes to the main branch
-    (on the same file you edited before). **Commit** them and then
-    **push**.
-
-7.  [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-19.png alt="version-control-systems-exercises-19.png" /]
+6.  Make some changes to the main branch (on the same file you edited before). **Commit** them and then **push**.
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-17.png alt="version-control-systems-exercises-17.png" /]
+7.  **Merge** with previous branch (in this case - develop).[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-19.png alt="version-control-systems-exercises-19.png" /]
    [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-20.png alt="version-control-systems-exercises-20.png" /]
-   [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-18.png alt="version-control-systems-exercises-18.png" /]**Merge** with previous branch (in this
-    case - develop).
-
+   [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-18.png alt="version-control-systems-exercises-18.png" /]
 8.  **Resolve** the new conflicts and commit.
-
 9.  **Delete** the newly created branch.
-
-    -   [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-21.png alt="version-control-systems-exercises-21.png" /]Use **TortoiseGit** -\>
+        - [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-21.png alt="version-control-systems-exercises-21.png" /]Use **TortoiseGit** -\>
         **Switch/Checkout...**
-
-        [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-22.png alt="version-control-systems-exercises-22.png" /]Click on the **hovered** element
-        above and window like this must appear:
-
+Click on the **hovered** element above and window like this must appear:
+        [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-22.png alt="version-control-systems-exercises-22.png" /]
         You can now **delete** your branch and **commit** your changes.
-
 10. **Update** the remote repository.
 
-## GitBash
+## II. GitBash
 
 
-### Upload a Few Projects at GitHub
+### 1. Upload a Few Projects at GitHub
 
 **\*** If you have already cloned your repository with **GitBash** you
 can safely skip this step.
@@ -180,9 +150,7 @@ steps:
     - Use \"git pull\" command.
 6.  You will get **conflict notification**.
 
-[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-24.png alt="version-control-systems-exercises-24.png" /]One of the files from the **local
-repository** will be **merged** with its newer version from the **remote
-repository**:
+One of the files from the **local repository** will be **merged** with its newer version from the **remote repository**:[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/version-control-systems-exercises-24.png alt="version-control-systems-exercises-24.png" /]
 
 7.  Now **resolve the conflict**. Edit the conflicting files and get
     then correctly merged. Remove all lines that point the locations of
@@ -198,8 +166,7 @@ Now, the **update should be successful** with **no conflicts**.
 10. Finally, **check the changes** on the Web in your GitHub account or
     sync your TortoiseGit local repo:
 
-### Create a branch and merge changes to the both local and remote repository
--------------------------------------------------------------------------
+### 3. Create a branch and merge changes to the both local and remote repository
 
 1.  Create **branch**.
 
