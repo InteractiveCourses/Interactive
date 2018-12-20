@@ -117,11 +117,36 @@ Write a program that reads a **string**, converts it to **Boolean** variable and
 
 ### Examples
 
++-------------------------+-------------------------+
+| **Input**               | **Output**              |
++=========================+=========================+
+| **True**                | **Yes**                 |
+|                         |                         |
+| **False**               | **No**                  |
++-------------------------+-------------------------+
 
-  **Input**   **Output**
-  ----------- ------------
-  **True**    **Yes**
-  **False**   **No**
 
 ### Hints
+
+- Use 
+[anchor href=https://msdn.microsoft.com/en-us/library/86hw82a3(v=vs.110).aspx]**Convert.ToBoolean(string)**[/anchor]
+
+
+## 6. Strings and Objects
+
+Declare two **string variables** and assign them with "**Hello**" and
+"**World**". Declare an **object variable** and assign it with the
+**concatenation** of the first two variables (mind adding an interval
+between). Declare a third **string** variable and initialize it with the
+value of the object variable (you should perform type **casting**).
+
+### Examples
+
++-----------+-----------------+
+| **Input** | **Output**      |
++===========+=================+
+| **Hello** | **Hello World** |
+|           |                 |
+| **World** |                 |
++-----------+-----------------+
 [/slide]
