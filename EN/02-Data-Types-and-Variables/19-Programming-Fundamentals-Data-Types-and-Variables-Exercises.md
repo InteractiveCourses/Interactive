@@ -107,7 +107,7 @@ Write a program that reads a number in **hexadecimal format** /(**0x\#\#**) conv
 ### Hints
 
 
-- Use
+- Use 
 [anchor href=https://msdn.microsoft.com/en-us/library/1k20k614(v=vs.110).aspx]**Convert.ToInt32(string, 16)**[/anchor]
      
 
@@ -117,4 +117,11 @@ Write a program that reads a **string**, converts it to **Boolean** variable and
 
 ### Examples
 
+
+  **Input**   **Output**
+  ----------- ------------
+  **True**    **Yes**
+  **False**   **No**
+
+### Hints
 [/slide]
