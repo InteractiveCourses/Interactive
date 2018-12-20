@@ -219,4 +219,22 @@ Declare the **variables** needed to keep the information for a single employee u
 [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-02.png alt="picture02" /]
 
 ## 9. Reverse Characters
+
+
+Write a program to ask the user for **3 letters** and print them in
+**reversed order**.
+
+### Examples
+
++-----------+------------+--+-----------+------------+--+-----------+------------+
+| **Input** | **Output** |  | **Input** | **Output** |  | **Input** | **Output** |
++===========+============+==+===========+============+==+===========+============+
+| **A**     | **CBA**    |  | **x**     | **zYx**    |  | **G**     | **ngG**    |
+|           |            |  |           |            |  |           |            |
+| **B**     |            |  | **Y**     |            |  | **g**     |            |
+|           |            |  |           |            |  |           |            |
+| **C**     |            |  | **z**     |            |  | **n**     |            |
++-----------+------------+--+-----------+------------+--+-----------+------------+
+
+## 10. Centuries to Nanoseconds
 [/slide]
