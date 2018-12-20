@@ -321,9 +321,7 @@ Create a program to calculate rectangle's **perimeter**, **area** and **diagonal
 ### Hints
 
 
--   Use **Math.Sqrt()** to calculate square root for calculating the diagonal (c^2^ = a^2^ + b^2^). See
-
-[anchor href=http://www.mathopenref.com/rectanglediagonals.html]http://www.mathopenref.com/rectanglediagonals.html[/anchor].
+-   Use **Math.Sqrt()** to calculate square root for calculating the diagonal (c^2^ = a^2^ + b^2^). See [anchor href=http://www.mathopenref.com/rectanglediagonals.html]http://www.mathopenref.com/rectanglediagonals.html[/anchor].
 
 ## 13. Vowel or Digit
 
@@ -331,4 +329,13 @@ Create a program to check if given symbol is **digit**, **vowel** or any
 **other symbol**.
 
 ### Examples
+
++-----------+------------+--+-----------+---------------+--+-----------+---------------+
+| **Input** | **Output** |  | **Input** | **Output**    |  | **Input** | **Output**    |
++===========+============+==+===========+===============+==+===========+===============+
+| **a**     | **vowel**  |  | **9**     | **digit**     |  | **g**     | **other**     |
++-----------+------------+--+-----------+---------------+--+-----------+---------------+
+
+
+## 14. Integer to Hex and Binary
 [/slide]
