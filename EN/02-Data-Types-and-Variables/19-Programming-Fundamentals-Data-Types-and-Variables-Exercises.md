@@ -246,4 +246,29 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 
   
 ### Hints
+
+
+
+-   Use an appropriate data type for every data conversion. Beware of
+    **overflows**!
+
+-   Assume that a year has **365.2422 days** at average [anchor href=https://en.wikipedia.org/wiki/Tropical_year] the Tropical year[/anchor].
+
+## 11. Convert Speed Units
+
+Create a program to ask the user for a **distance (in meters)** and the time taken (as three numbers: hours, minutes, seconds), and **print the speed**, in meters per second, kilometers per hour and miles per hour.
+
+Assume 1 mile = 1609 meters.
+
+### Input
+
+- On first line you receive -- **distance in meters**
+
+- On second -- **hours**
+
+- On third -- **minutes**
+
+- On fourth -- **seconds**
+
+### Output
 [/slide]
