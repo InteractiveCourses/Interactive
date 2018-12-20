@@ -1,14 +1,14 @@
 [slide]
 # Exercises: Data Types and Variables
-===================================
+
+Problems for exercises and homework for the “Programming Fundamentals” course @ SoftUni.
 
 You can check your solutions here:
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/00.Console-example.png alt="Console" /]
 
 [anchor href=https://judge.softuni.bg/Contests/206/Data-Types-and-Variables-Exercises]https://judge.softuni.bg/Contests/206/Data-Types-and-Variables-Exercises[/anchor]
 
-Practice Integer Numbers
-------------------------
+## 1. Practice Integer Numbers
 
 Create a new C\# project and create a program that **assigns integer
 values** to **variables**. Be sure that each **value** is stored in the
@@ -42,8 +42,7 @@ Follow the idea in the code below:
 
 [image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-01.png alt="exercises01png" /]
 
-Practice Floating Point Numbers
--------------------------------
+## 2. Practice Floating Point Numbers
 
 
 [/slide]
