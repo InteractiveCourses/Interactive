@@ -105,14 +105,11 @@ Write a program that reads a number in **hexadecimal format** /(**0x\#\#**) conv
 
 - Use
 href=https://msdn.microsoft.com/en-us/library/1k20k614(v=vs.110).aspx]**Convert.ToInt32(string, 16)**[/anchor]
-    
-    
+     
 
 ## 5. Boolean Variable
 
-Write a program that reads a **string**, converts it to **Boolean**
-variable and **prints** "**Yes**" if the variable is **true** and
-"**No**" if the variable is **false**.
+Write a program that reads a **string**, converts it to **Boolean** variable and **prints** "**Yes**" if the variable is **true** and "**No**" if the variable is **false**.
 
 ### Examples
 
