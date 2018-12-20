@@ -271,4 +271,52 @@ Assume 1 mile = 1609 meters.
 - On fourth -- **seconds**
 
 ### Output
+
+
+Every number in the output should be precise up to 6 digits after the
+floating point
+
+-   On first line -- speed in **meters per second** (m/s)
+
+-   On second line -- speed in **kilometers per hour** (km/h)
+
+-   On third line -- speed in **miles per hour** (mph)
+
+### Examples
+
++-----------+---------------+--+-----------+--------------+--+------------+--------------+
+| **Input** | **Output**    |  | **Input** | **Output**   |  | **Input**  | **Output**   |
++===========+===============+==+===========+==============+==+============+==============+
+| **1000**  | **0.2732241** |  | **10000** | **8.130082** |  | **200000** | **26.66667** |
+|           |               |  |           |              |  |            |              |
+| **1**     | **0.9836066** |  | **0**     | **29.26829** |  | **2**      | **96**       |
+|           |               |  |           |              |  |            |              |
+| **1**     | **0.6113155** |  | **20**    | **18.19036** |  | **5**      | **59.66439** |
+|           |               |  |           |              |  |            |              |
+| **0**     |               |  | **30**    |              |  | **0**      |              |
++-----------+---------------+--+-----------+--------------+--+------------+--------------+
+
+### Hints
+
+-   Search in internet how to convert units.
+
+-   The type **float** is big enough for the calculations.
+
+## 12. Rectangle Properties
+
+Create a program to calculate rectangle's **perimeter**, **area** and **diagonal** by given its **width** and **height**.
+
+### Examples
+
++-----------+----------------------+--+-----------+----------------------+
+| **Input** | **Output**           |  | **Input** | **Output**           |
++===========+======================+==+===========+======================+
+| **10**    | **30**               |  | **22.1**  | **64.6**             |
+|           |                      |  |           |                      |
+| **5**     | **50**               |  | **10.2**  | **225.42**           |
+|           |                      |  |           |                      |
+|           | **11.1803398874989** |  |           | **24.3402958075698** |
++-----------+----------------------+--+-----------+----------------------+
+
+### Hints
 [/slide]
