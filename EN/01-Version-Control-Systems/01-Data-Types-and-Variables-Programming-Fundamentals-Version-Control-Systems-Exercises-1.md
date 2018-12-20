@@ -118,10 +118,8 @@ Click on the **hovered** element above and window like this must appear:
 -   Use \"git commit\" command.
 
 ``5.``  **Pull** then **push** your changes to the remote repository in GitHub (use):
-
-    - Use \"git pull\" command.
-
-    - Use \"git push\" command.
+- Use \"git pull\" command.
+- Use \"git push\" command.
 
 ``6.`` Check whether your changes are online.
 
