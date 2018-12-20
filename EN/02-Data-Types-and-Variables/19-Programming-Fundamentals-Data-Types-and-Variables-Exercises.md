@@ -146,7 +146,6 @@ value of the object variable (you should perform type **casting**).
 | **Input** | **Output**      |
 +===========+=================+
 | **Hello** | **Hello World** |
-|           |                 |
 | **World** |                 |
 +-----------+-----------------+
 [/slide]
