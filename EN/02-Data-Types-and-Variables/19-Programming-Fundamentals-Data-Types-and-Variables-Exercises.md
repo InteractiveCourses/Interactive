@@ -146,6 +146,77 @@ value of the object variable (you should perform type **casting**).
 | **Input** | **Output**      |
 +===========+=================+
 | **Hello** | **Hello World** |
+|           |                 |
 | **World** |                 |
 +-----------+-----------------+
+
+
+
+## 7. Exchange Variable Values
+
+Declare two integer variables **a** and **b** and assign them with 5 and
+10 and after that **exchange their values** by using some programming
+logic. Print the variable values before and after the exchange, as shown
+below:
+
+### Examples
+
++-----------+------------+
+| **Input** | **Output** |
++===========+============+
+| 5         | Before:    |
+|           |            |
+| 10        | a = 5      |
+|           |            |
+|           | b = 10     |
+|           |            |
+|           | After:     |
+|           |            |
+|           | a = 10     |
+|           |            |
+|           | b = 5      |
++-----------+------------+
+
+### Hints
+
+You may use a **temporary variable** to remember the old value of **a**,
+then assign the value of **b** to **a**, then assign the value of the
+temporary variable to **b**.
+
+## 8. Employee Data
+
+A marketing company wants to keep record of its employees. Each record
+would have the following characteristics:
+- First name
+- Last name
+- Age (0\...100)
+- Gender (**m** or **f**)
+- Personal ID number (e.g. 8306112507)
+- Unique employee number (27560000...27569999)
+
+Declare the **variables** needed to keep the information for a single employee using appropriate primitive data types. Use descriptive names. **Print** the data at the console.
+
+### Examples
+
++------------+----------------------------------+
+| **Input**  | **Output**                       |
++============+==================================+
+| Amanda     | First name: Amanda               |
+|            |                                  |
+| Jonson     | Last name: Jonson                |
+|            |                                  |
+| 27         | Age: 27                          |
+|            |                                  |
+| f          | Gender: f                        |
+|            |                                  |
+| 8306112507 | Personal ID: 8306112507          |
+|            |                                  |
+| 27563571   | Unique Employee number: 27563571 |
++------------+----------------------------------+
+
+### Hints
+
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-02.png alt="picture02" /]
+
+## 9. Reverse Characters
 [/slide]
