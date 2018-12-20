@@ -242,16 +242,8 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 
 ### Examples
 
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/DataTypesTable10-1.png alt="DataTypesTable10-1" /]
+
   
-+------------+----------------------------------+
-| **Input**  | **Output**                       |
-+============+==================================+
-| **1**     | **1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes = 3155673600 seconds = 3155673600000 milliseconds = 3155673600000000 microseconds = 3155673600000000000 nanoseconds**               |
-|            |                                  |
-| **5**     | **5 centuries = 500 years = 182621 days = 4382904 hours = 262974240 minutes = 15778454400 seconds = 15778454400000 milliseconds = 15778454400000000 microseconds = 15778454400000000000 nanoseconds**                |
-|            |                                  |
-+------------+----------------------------------+
-
-
 ### Hints
 [/slide]
