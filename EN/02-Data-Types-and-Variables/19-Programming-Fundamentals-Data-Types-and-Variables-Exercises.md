@@ -340,8 +340,7 @@ Create a program to check if given symbol is **digit**, **vowel** or any
 ## 14. Integer to Hex and Binary
 
 
-..............
-..............
+Ddddddddddddddddd
 
 
 Create a program to convert a **decimal number** to **hexadecimal** and
