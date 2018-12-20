@@ -338,4 +338,275 @@ Create a program to check if given symbol is **digit**, **vowel** or any
 
 
 ## 14. Integer to Hex and Binary
+
+
+..............
+..............
+
+
+Create a program to convert a **decimal number** to **hexadecimal** and
+**binary** number and print it.
+
+### Examples
+
++-----------+------------+--+-----------+---------------+--+-----------+---------------+
+| **Input** | **Output** |  | **Input** | **Output**    |  | **Input** | **Output**    |
++===========+============+==+===========+===============+==+===========+===============+
+| 10        | A          |  | **420**   | **1A4**       |  | **256**   | **100**       |
+|           |            |  |           |               |  |           |               |
+|           | 1010       |  |           | **110100100** |  |           | **100000000** |
++-----------+------------+--+-----------+---------------+--+-----------+---------------+
+
+### Hints
+- Use [anchor href=https://msdn.microsoft.com/en-us/library/14kwkz77(v=vs.110).aspx]Convert.ToString(number, base[/anchor] and 
+[anchor href=https://msdn.microsoft.com/en-us/library/ewdd6aed(v=vs.110).aspx]**string.ToUpper()**[/anchor]
+
+
+## 15. Fast Prime Checker - Refactor
+
+You are given a program that checks if numbers in a given range \[2\...N\] are prime. For each number is printed \"{number} is prime -\> {True or False}\". The code however, is not very well written. Your job is to modify it in a way that is **easy to read and understand.**
+
+### Code
+
++--------------------------------------------------------------+
+| **Sample Code**                                              |
++==============================================================+
+| int \_\_\_Do\_\_\_ = int.Parse(Console.ReadLine());          |
+|                                                              |
+| for (int DAVIDIM = 0; DAVIDIM \<= \_\_\_Do\_\_\_; DAVIDIM++) |
+|                                                              |
+| { bool TowaLIE = true;                                       |
+|                                                              |
+| for (int delio = 2; delio \<= Math.Sqrt(DAVIDIM); delio++)   |
+|                                                              |
+| {                                                            |
+|                                                              |
+| if (DAVIDIM % delio == 0)                                    |
+|                                                              |
+| {                                                            |
+|                                                              |
+| TowaLIE = false;                                             |
+|                                                              |
+| break;                                                       |
+|                                                              |
+| }                                                            |
+|                                                              |
+| }                                                            |
+|                                                              |
+| Console.WriteLine(\$\"{DAVIDIM} is prime -\> {TowaLIE}\");   |
+|                                                              |
+| }                                                            |
++--------------------------------------------------------------+
+
+### Examples
+
++-----------+-------------+
+| **Input** | **Output**  |
++===========+=============+
+| 5         | 2 -\> True  |
+|           |             |
+|           | 3 -\> True  |
+|           |             |
+|           | 4 -\> False |
+|           |             |
+|           | 5 -\> True  |
++-----------+-------------+
+
+### Hints
+
+-   Search how to check if a number is prime
+
+-   Rename all variables such as to be clear what is their role in the
+    algorithm
+
+## 16. \* Comparing Floats
+
+Write a program that **safely compares floating-point numbers**
+(**double**) with precision **eps** = **0.000001**. Note that we cannot
+directly compare two floating-point numbers **a** and **b** by **a==b**
+because of the nature of the floating-point arithmetic. Therefore, we
+assume two numbers are equal if they are more closely to each other than
+some fixed constant **eps**. Examples:
+
+  **Number a**   **Number b**   **Equal (with precision eps=0.000001)**   **Explanation**
+  -------------- -------------- ----------------------------------------- -------------------------------------------------------------------------------------
+  5.3            6.01           False                                     The difference of 0.71 is too big (\> eps)
+  5.00000001     5.00000003     True                                      The difference 0.00000002 \< eps
+  5.00000005     5.00000001     True                                      The difference 0.00000004 \< eps
+  -0.0000007     0.00000007     True                                      The difference 0.00000077 \< eps
+  -4.999999      -4.999998      False                                     Border case. The difference 0.000001 == eps. We consider the numbers are different.
+  4.999999       4.999998       False                                     Border case. The difference 0.000001 == eps. We consider the numbers are different.
+
+## 17. Print Part of the ASCII Table
+
+Find online more information about [anchor href=http://www.ascii-code.com/]ASCII[/anchor] (American Standard Code for Information Interchange) and write a program that **prints part of the ASCII table** of characters at the console. On the first line of input you will receive **the char index you should start with** and on the **second line - the index of the last character** you should print.
+
+### Examples
+
++-----------+----------------------------------+
+| **Input** | **Output**                       |
++===========+==================================+
+| 60        | \< = \> ? @ A                    |
+|           |                                  |
+| 65        |                                  |
++-----------+----------------------------------+
+| 69        | E F G H I J K L M N O            |
+|           |                                  |
+| 79        |                                  |
++-----------+----------------------------------+
+| 97        | a b c d e f g h                  |
+|           |                                  |
+| 104       |                                  |
++-----------+----------------------------------+
+| 40        | ( ) \* + , - . / 0 1 2 3 4 5 6 7 |
+|           |                                  |
+| 55        |                                  |
++-----------+----------------------------------+
+
+## 18. \* Different Integers Size
+
+Given an input integer, you must **determine which primitive data types** are capable of properly storing that input.
+
+### Input
+
+- You receive **N** -- integer which can be arbitrarily large or small
+
+### Output
+
+You must determine if the given primitives are capable of storing it. If yes, then print:
+
++-----------------+
+| {N} can fit in: |
+|                 |
+| \* dataType     |
++-----------------+
+
+If there is more than one appropriate data type, print each one on its own line and order them by size \(**sbyte \< byte \< short \< ushort \< int \< uint \< long**).
+
+If the number cannot be stored in one of the four aforementioned primitives, print the line:
+
+  ----------------------------
+  {N} can\'t fit in any type
+  ----------------------------
+
+### Examples
+
++-----------+------------------+--+-----------+--------------------+
+| **Input** | **Output**       |  | **Input** | **Output**         |
++===========+==================+==+===========+====================+
+| -150      | -150 can fit in: |  | 150000    | 150000 can fit in: |
+|           |                  |  |           |                    |
+|           | \* short         |  |           | \* int             |
+|           |                  |  |           |                    |
+|           | \* int           |  |           | \* uint            |
+|           |                  |  |           |                    |
+|           | \* long          |  |           | \* long            |
++-----------+------------------+--+-----------+--------------------+
+
++------------+------------------------+
+| **Input**  | **Output**             |
++============+========================+
+| 1500000000 | 1500000000 can fit in: |
+|            |                        |
+|            | \* int                 |
+|            |                        |
+|            | \* uint                |
+|            |                        |
+|            | \* long                |
++------------+------------------------+
+
+
++--------------------------------------+-------------------------------------------------------------+
+| **Input**                            | **Output**                                                  |
++============+=======================================================================================+
+| 213333333333333333333333333333333333 | 213333333333333333333333333333333333 can\'t fit in any type |
+|                                      |                                                             |
++--------------------------------------+-------------------------------------------------------------+
+
+
+  
+### Hints
+
+- Use the **try ... catch** construction.
+
+## 19. \* Thea the Photographer
+
+***This problem is from the Programming Fundamentals Retake Exam (11 September 2016).***
+
+Thea is a photographer. She takes pictures of people on special events.
+She is a good friend and you want to help her.
+
+She wants to inform her clients when their pictures will be ready. Since the number of pictures is big and it requires time for editing (\#nofilter, \#allnatural) **every** single picture - you decide to write a program in order to help her.
+
+Thea follows this pattern: first she takes **all** pictures. Then she goes through every single picture to **filter** these pictures that are considered \"good\". Then she needs to upload every single **filtered** picture to her cloud. She is considered ready when all **filtered** pictures are **uploaded** in her picture storage.
+
+You will receive the **amount** of pictures she had taken. Then the approximate **time** in **seconds** for every picture to be filtered. Then a **filter factor** -- a **percentage** (integer number) of the **total photos** (rounded to the nearest **bigger** **integer** value
+e.g. 5.01 -\> 6) that are good enough to be given to her clients (Photoshop may do miracles but Thea does not). Approximate **time** for every picture to be uploaded will be given again in **seconds**. Your task is: based on this input to display total time needed for her to be
+ready with the pictures in given below format.
+
+### Input
+
+On the first line you will receive an integer **N** -- the amount of pictures Thea had taken.
+
+On the second line you will receive an integer **FT** -- the amount of time (filter time) in seconds that Thea will require to filter every single picture.
+
+On the third line you will receive an integer **FF** -- the filter factor or the percentage of the total pictures that are considered "good" to be uploaded.
+
+On the fourth line you will receive an integer **UT** -- the amount of time needed for every **filtered** picture to be uploaded to her storage.
+
+The input will be in the described format, there is no need to check it explicitly.
+
+### Output
+
+Print the amount of time Thea will need in order to have her pictures ready to be sent to her client in given format:
+
+d:HH:mm:ss
+
+d - days needed -- starting from 0.
+
+HH -- hours needed -- from 00 to 24.
+
+mm -- minutes needed -- from 00 to 59.
+
+ss -- minutes needed -- from 00 to 59.
+
+### Constraints
+
+The amount of total pictures Thea will have taken is range \[0 ... 1 000 000\]
+
+The seconds for both filtering and uploading will be in range \[0 ... 100 000\]
+
+The filter factor will be an integer number between \[0 ... 100\].
+
+### Examples
+
++-----------------------+-----------------------+-----------------------+
+| **Input**             | **Output**            | **Comments**          |
++=======================+=======================+=======================+
+| **1000**              | **0:00:25:00**        | **Total pictures =    |
+|                       |                       | 1 000, 50% of them    |
+| **1**                 |                       | are useful -\>        |
+|                       |                       | Filtered pictures =   |
+| **50**                |                       | 500 **                |
+|                       |                       |                       |
+| **1**                 |                       | **Total pictures \*   |
+|                       |                       | filter time = 1000    |
+|                       |                       | s**                   |
+|                       |                       |                       |
+|                       |                       | **Filtered pictures   |
+|                       |                       | \* upload time = 500  |
+|                       |                       | s**                   |
+|                       |                       |                       |
+|                       |                       | **Total time = 1500   |
+|                       |                       | s**                   |
++-----------------------+-----------------------+-----------------------+
+| **5342**              | **0:06:37:07**        | **Total pictures =    |
+|                       |                       | 5342 - 82% of them    |
+| **2**                 |                       | are useful -\>        |
+|                       |                       | 4380.44-\> 4381       |
+| **82**                |                       | filtered.**           |
+|                       |                       |                       |
+| **3**                 |                       |                       |
++-----------------------+-----------------------+-----------------------+
+
 [/slide]
