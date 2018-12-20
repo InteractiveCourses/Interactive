@@ -59,12 +59,9 @@ variables to the console.
 
 ### Hints
 
-Just like at the previous problem, declare several variables of
-appropriate **floating-point data type**, assign the above listed values
-and **print** them.
+Just like at the previous problem, declare several variables of appropriate **floating-point data type**, assign the above listed values and **print** them.
 
 ## 3. Practice Characters and Strings
--------------------------------
 
 Create a new C\# project and create a program that **assigns character**
 and **string values** to **variables**. Be sure that each **value** is
