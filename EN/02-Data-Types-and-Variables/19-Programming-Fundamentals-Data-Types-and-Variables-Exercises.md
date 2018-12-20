@@ -95,4 +95,11 @@ Write a program that reads a number in **hexadecimal format** /(**0x\#\#**) conv
 
 ### Examples
 
+  **Input**   **Output**
+  ----------- ------------
+  **0xFE**    **254**
+  **0x37**    **55**
+  **0x10**    **16**
+
+### Hints
 [/slide]
