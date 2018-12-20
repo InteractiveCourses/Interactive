@@ -94,6 +94,15 @@ Like at the previous problem, declare variables of type **char** or
 Write a program that reads a number in **hexadecimal format** /(**0x\#\#**) convert it to **decimal format** and prints it.
 
 ### Examples
++-------------------------+-------------------------+
+| **Input**               | **Output**              |
++=========================+=========================+
+| **0xFE** | **254** |
+|                         |                         |
+| **0x37**                   | **55**                   |
+|                         |                         |
+| **0x10**                   | **16**                   |
++-------------------------+-------------------------+
 
 +------------+--------------+
 |  **Input** |  **Output**  |
@@ -102,5 +111,6 @@ Write a program that reads a number in **hexadecimal format** /(**0x\#\#**) conv
 |  **0x37**  |  **55**      |
 |  **0x10**  |  **16**      |
 +------------+--------------+
+
 ### Hints
 [/slide]
