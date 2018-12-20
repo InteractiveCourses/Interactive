@@ -485,9 +485,10 @@ If there is more than one appropriate data type, print each one on its own line 
 
 If the number cannot be stored in one of the four aforementioned primitives, print the line:
 
-  ----------------------------
-  {N} can\'t fit in any type
-  ----------------------------
++----------------------------+
+| {N} can\'t fit in any type |
++----------------------------+
+  
 
 ### Examples
 
