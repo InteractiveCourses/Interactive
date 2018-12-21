@@ -465,19 +465,19 @@ Given an input integer, you must **determine which primitive data types** are ca
 
 You must determine if the given primitives are capable of storing it. If yes, then print:
 
-+-----------------+
-| {N} can fit in: |
-|                 |
-| \* dataType     |
-+-----------------+
++-------------------+
+| \{N\} can fit in: |
+|                   |
+| \* dataType       |
++-------------------+
 
 If there is more than one appropriate data type, print each one on its own line and order them by size \(**sbyte \< byte \< short \< ushort \< int \< uint \< long**).
 
 If the number cannot be stored in one of the four aforementioned primitives, print the line:
 
-+----------------------------+
-| {N} can\'t fit in any type |
-+----------------------------+
++------------------------------+
+| \{N\} can\'t fit in any type |
++------------------------------+
   
 
 ### Examples
