@@ -425,9 +425,7 @@ assume two numbers are equal if they are more closely to each other than
 some fixed constant **eps**. Examples:
 
 
-
-
-The difference 0.000001 == eps. 
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-16-table.png alt="picture16table" /]
 
 
 
