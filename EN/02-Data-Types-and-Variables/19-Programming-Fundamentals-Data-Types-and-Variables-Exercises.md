@@ -340,9 +340,6 @@ Create a program to check if given symbol is **digit**, **vowel** or any
 ## 14. Integer to Hex and Binary
 
 
-Ddddddddddddddddd
-
-
 Create a program to convert a **decimal number** to **hexadecimal** and
 **binary** number and print it.
 
@@ -426,6 +423,23 @@ directly compare two floating-point numbers **a** and **b** by **a==b**
 because of the nature of the floating-point arithmetic. Therefore, we
 assume two numbers are equal if they are more closely to each other than
 some fixed constant **eps**. Examples:
+
++-------------+--------------------+---------------------------------------------------------+----------------------+
+|**Number a** | **Number b**       |             **Equal (with precision eps=0.000001)**     | **Explanation**      |
++=============+====================+=========================================================+======================+
+| 5.3         | 6.01               | False                                                   | **64.6**             |
+|             |                    |                                                         |                      |
+| 5.00000001  | 5.00000003         | True                                                    | **225.42**           |
+|             |                    |                                                         |                      |
+| 5.00000005  | 5.00000001         | True                                                    | **24.3402958075698** |
+|             |                    |                                                         | **225.42**           |
+| -0.0000007  |  0.00000007        | True                                                    |                      |
+|             |                    |                                                         | **24.3402958075698** |
+| -4.999999   | -4.999998          | False                                                   | **225.42**           |
+|             |                    |                                                         |                      |
+|  4.999999   | 4.999998           | False                                                   | **24.3402958075698** |
++-------------+--------------------+---------------------------------------------------------+----------------------+
+
 
   **Number a**   **Number b**   **Equal (with precision eps=0.000001)**   **Explanation**
   -------------- -------------- ----------------------------------------- -------------------------------------------------------------------------------------
