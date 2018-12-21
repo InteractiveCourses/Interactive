@@ -571,6 +571,7 @@ The seconds for both filtering and uploading will be in range \[0 ... 100 000\]
 The filter factor will be an integer number between \[0 ... 100\].
 
 ### Examples
+[image src=https://github.com/InteractiveCourses/Interactive/blob/master/assets/programming-fundamentals-data-types-and-variables-exercises-19-table.png alt="picture19table" /]
 
 +-----------------------+-----------------------+-----------------------+
 | **Input**             | **Output**            | **Comments**          |
